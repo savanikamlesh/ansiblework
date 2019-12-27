@@ -1,6 +1,6 @@
 ---
-- hosts: UCPL-DC-Servers
-  gather_facts: yes
+#- hosts: UCPL-DC-Servers
+ # gather_facts: yes
   tasks:
   - name: set administrator password
     win_user:

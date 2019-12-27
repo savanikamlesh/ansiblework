@@ -1,6 +1,6 @@
 ---
 # First Play installs dsc resource on all future domain controllers
-- hosts: dcs
+- hosts: all
   gather_facts: no
   tasks:
   - name: use win_psmodule to install dsc resources on target machines
